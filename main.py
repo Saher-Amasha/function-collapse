@@ -264,7 +264,7 @@ class Display:
                 im.thumbnail((self.tile_pixel_height, self.tile_pixel_height))
                 new_im.paste(im, (i, j))
         im.show()
-        new_im.convert("RGB").save("geeks.jpg")
+        new_im.convert("RGB").save("current_grid_image.jpg")
 
 
 def main(
@@ -286,6 +286,7 @@ def main(
             if verbose:
                 print("Grid was impossible retring")
             grid = Grid(path, tile_width, tile_height)
+
         if diplay_per_image:
             Display(grid).generate_image_from_grid()
     if not diplay_per_image:
@@ -293,9 +294,9 @@ def main(
 
 
 if __name__ == "__main__":
-    path = "./tiles/circuit_coding_train"
-    tile_width = 10
-    tile_height = 10
+    path = "./tiles/rail"
+    tile_width = 20
+    tile_height = 20
     diplay_per_image = True
     verbose = True
     main(path, tile_width, tile_height, diplay_per_image, verbose)

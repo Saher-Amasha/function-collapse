@@ -1,8 +1,0 @@
-{
-  "blank": ["AAA", "AAA", "AAA", "AAA"],
-  "piece": ["AAA", "ABA", "ABA", "ABA"],
-  "rotations": {
-    "blank": [],
-    "piece": [1, 2, 3]
-  }
-}
