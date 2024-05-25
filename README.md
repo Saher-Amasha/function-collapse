@@ -1,6 +1,8 @@
 # function-collapse
 function-collapse
+
 https://en.wikipedia.org/wiki/Wave_function_collapse
+
 Create these types of images from tiles
 Tiles:
 
