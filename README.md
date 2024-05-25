@@ -3,7 +3,8 @@ function-collapse
 
 https://en.wikipedia.org/wiki/Wave_function_collapse
 
-Create these types of images from tiles
+Create bigger images made from tiles for example :
+
 Tiles:
 
 ![alt text](https://github.com/Saher-Amasha/function-collapse/blob/main/tiles/rail/tile0.png?raw=true)
@@ -15,7 +16,7 @@ Tiles:
 ![alt text](https://github.com/Saher-Amasha/function-collapse/blob/main/tiles/rail/tile6.png?raw=true)
 
 
-bigger image 
+the bigger image 
 
 ![alt text](https://github.com/Saher-Amasha/function-collapse/blob/main/current_grid_image.jpg?raw=true)
 
